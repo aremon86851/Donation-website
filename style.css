@@ -1,0 +1,274 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+/* Top banner */
+
+.top-banner {
+    background: url(images/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.under-top-banner {
+    text-align: center;
+}
+
+.under-top-banner h1 {
+    color: white;
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.under-top-banner p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.button {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 5px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px grey;
+}
+
+/* Donate Today */
+.donate-today {
+    margin-bottom: 70px;
+}
+
+.under-donate-today {
+    text-align: center;
+}
+
+.under-donate-today p {
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.amount-donate-today button {
+    font-size: 25px;
+    padding: 15px 15px;
+    background-color: Transparent;
+    border: none;
+
+}
+
+button.amount-color {
+    color: orange;
+    border: 1px solid orange;
+    background-color: #FFEEEE;
+}
+
+.amount-input {
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Our Donate Plan */
+.donate-plan {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.donate-plan p {
+    margin-bottom: 55px;
+}
+
+.flex-display {
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.under-donate-plan {
+    margin-left: 2%;
+    padding: 40px 10px 10px;
+    background-color: red;
+    text-align: left;
+}
+
+.under-donate-plan img {
+    margin-bottom: 10px;
+}
+
+.under-donate-plan h3 {
+    margin-bottom: 10px;
+}
+
+.under-donate-plan p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.color-sky {
+    background-color: rgba(135, 207, 235, 0.41);
+}
+
+.color-pink {
+    background-color: rgba(255, 192, 203, 0.571);
+}
+
+.color-unknown {
+    background-color: #e8cb2842;
+}
+
+/* Cause of donation */
+.cause-of-donation {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.cause-of-donation h2 {
+    margin-bottom: 30px;
+}
+
+.under-cause-donation {
+    width: 30%;
+    padding: 34px 2%;
+    margin-left: 2%;
+    box-shadow: 0px 0px 7px grey;
+    border-radius: 36px;
+}
+
+.under-cause-donation img {
+    width: 90%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.under-cause-donation h3 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.under-cause-donation p {
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom: 17px;
+}
+
+.under-cause-donation a {
+    margin-left: -127px;
+}
+
+/* Depends on your donation */
+.depends {
+    background-color: #e8cb2842;
+    padding: 20px 0px;
+    margin-bottom: 70px;
+}
+
+.under-depends {
+    width: 80%;
+    padding: 2%;
+}
+
+.under-depends img {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.under-depends p {
+    margin-bottom: 30px;
+}
+
+/* Rescue Animals */
+.rescue-animals {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.rescue-animals h2 {
+    margin-bottom: 5px;
+}
+
+
+.under-rescue-animals {
+    width: 80%;
+    margin-left: 2%;
+    padding: 26px 2%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.under-rescue-animals img {
+    width: 100%;
+    height: 160px;
+}
+
+
+/* Get my updates */
+.get-updates {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.get-updates p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.subscribe {
+    background-color: #e8cb2842;
+    padding: 50px 0px;
+    width: 70%;
+    margin-left: 16%;
+}
+
+.subscribe input {
+    width: 20%;
+    padding: 14px 0px 7px 5px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.278);
+}
+
+.subscribe-button {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 5px 25px;
+    margin-left: -4px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: black;
+    color: red;
+    padding: 20px;
+}
+
+footer h2 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+footer h3 {
+    color: white;
+}
